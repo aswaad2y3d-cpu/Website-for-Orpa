@@ -1,5 +1,7 @@
 // Elements
-
+const bgMusic = document.getElementById("bgMusic");
+const openSound = document.getElementById("openSound");
+const yaySound = document.getElementById("yaySound");
 const envelope = document.getElementById("envelope-container");
 const letter = document.getElementById("letter-container");
 
@@ -15,6 +17,11 @@ const finalText = document.getElementById("final-text");
 // Open Envelope
 
 envelope.addEventListener("click", () => {
+     openSound.play();
+    bgMusic.play();
+
+    envelope.style.display = "none";
+    letter.style.display = "flex";
 
     envelope.style.display = "none";
     letter.style.display = "flex";
@@ -72,10 +79,10 @@ noBtn.addEventListener("click",()=>{
 // YES CLICK
 
 yesBtn.addEventListener("click",()=>{
-
+  yaySound.play();
 
     title.textContent =
-    "Yippeeee!! I knew you would say yes ❤️";
+    "Yeayy!! I knew you would say yes❤️";
 
 
     catImg.src="cat_dance.gif";
