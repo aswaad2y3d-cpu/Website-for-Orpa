@@ -13,7 +13,7 @@ body {
 
 /* floating hearts */
 body::before {
-    content: "♥ ♥ ♥ ♥ ♥ ♥ ♥";
+    content: "♥ ♥ U⁠^⁠ｪ⁠^⁠U ♥ ♥";
     position: absolute;
     width: 100%;
     top: -50px;
@@ -60,7 +60,7 @@ body::before {
 
 #envelope-container p {
     font-size:28px;
-    color:#ff4d88;
+    color:#050002;
     text-shadow:0 0 10px white;
 }
 
@@ -120,7 +120,7 @@ body::before {
 h1 {
 
     font-size:32px;
-    color:#ff477e;
+    color:#050002;
     text-shadow:2px 2px white;
 
 }
@@ -197,7 +197,7 @@ h1 {
 
     font-size:24px;
 
-    color:#ff3b6f;
+    color:#050002;
 
     background:rgba(255,255,255,.6);
 
