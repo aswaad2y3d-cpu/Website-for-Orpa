@@ -79,8 +79,8 @@ body::before {
 
 .letter-window {
 
-    width:90vw;
-    max-width:800px;
+    width:100vw;
+    max-width:1000px;
     aspect-ratio:3/2;
 
     display:flex;
