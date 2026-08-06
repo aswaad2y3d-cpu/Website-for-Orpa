@@ -82,7 +82,7 @@ yesBtn.addEventListener("click",()=>{
   yaySound.play();
 
     title.textContent =
-    "Yeayy!! I knew you would say yes❤️ (I had fun today)";
+    "Yeayy!! I knew you would say yes..(Also I loved today❤️)";
 
 
     catImg.src="cat_dance.gif";
